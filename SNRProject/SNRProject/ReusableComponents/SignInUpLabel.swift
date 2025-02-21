@@ -1,11 +1,10 @@
 import Foundation
 import UIKit
 
-final class LoginRegistrationLabel: UILabel {
+final class HaveAccountLabel: UILabel {
     override init(frame: CGRect) {
         super.init(frame: frame)
-        textColor = .black
-        font = UIFont.systemFont(ofSize: 14, weight: .medium)
+        setupLabel()
     }
     
     required init?(coder: NSCoder) {
@@ -14,7 +13,12 @@ final class LoginRegistrationLabel: UILabel {
     
     var labelText: String = "" {
         didSet {
-            text = labelText
+            self.text = labelText
         }
+    }
+    
+    private func setupLabel() {
+        self.font = UIFont.systemFont(ofSize: 16)
+        self.textColor = .black
     }
 }

@@ -18,6 +18,14 @@
 		AF3ECCDC2D55ECB2003BC974 /* ConfirmationPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3ECCDB2D55ECB2003BC974 /* ConfirmationPage.swift */; };
 		AF3ECCE32D55F33D003BC974 /* LoginLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3ECCE22D55F33D003BC974 /* LoginLabel.swift */; };
 		AF3ECCE52D55F683003BC974 /* LoginTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3ECCE42D55F683003BC974 /* LoginTextField.swift */; };
+		AFE0DA1A2D5A75EC00A7C33C /* SingInUpLabelButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE0DA192D5A75EC00A7C33C /* SingInUpLabelButton.swift */; };
+		AFE0DA1C2D5C790F00A7C33C /* MainLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE0DA1B2D5C790F00A7C33C /* MainLabel.swift */; };
+		AFE0DA1E2D5C7A4300A7C33C /* SubheadingLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE0DA1D2D5C7A4200A7C33C /* SubheadingLabel.swift */; };
+		AFE0DA202D5C812C00A7C33C /* RegistrationContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE0DA1F2D5C812C00A7C33C /* RegistrationContentView.swift */; };
+		AFFAF2E32D592358008AB031 /* Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFFAF2E22D592358008AB031 /* Presenter.swift */; };
+		AFFAF2E52D592504008AB031 /* YellowButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFFAF2E42D592504008AB031 /* YellowButton.swift */; };
+		AFFAF2E72D5928E6008AB031 /* SignInUpLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFFAF2E62D5928E6008AB031 /* SignInUpLabel.swift */; };
+		AFFAF2E92D5929EC008AB031 /* GoogleLoginButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFFAF2E82D5929EC008AB031 /* GoogleLoginButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +42,14 @@
 		AF3ECCDB2D55ECB2003BC974 /* ConfirmationPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmationPage.swift; sourceTree = "<group>"; };
 		AF3ECCE22D55F33D003BC974 /* LoginLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginLabel.swift; sourceTree = "<group>"; };
 		AF3ECCE42D55F683003BC974 /* LoginTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginTextField.swift; sourceTree = "<group>"; };
+		AFE0DA192D5A75EC00A7C33C /* SingInUpLabelButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingInUpLabelButton.swift; sourceTree = "<group>"; };
+		AFE0DA1B2D5C790F00A7C33C /* MainLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainLabel.swift; sourceTree = "<group>"; };
+		AFE0DA1D2D5C7A4200A7C33C /* SubheadingLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubheadingLabel.swift; sourceTree = "<group>"; };
+		AFE0DA1F2D5C812C00A7C33C /* RegistrationContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationContentView.swift; sourceTree = "<group>"; };
+		AFFAF2E22D592358008AB031 /* Presenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Presenter.swift; sourceTree = "<group>"; };
+		AFFAF2E42D592504008AB031 /* YellowButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YellowButton.swift; sourceTree = "<group>"; };
+		AFFAF2E62D5928E6008AB031 /* SignInUpLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInUpLabel.swift; sourceTree = "<group>"; };
+		AFFAF2E82D5929EC008AB031 /* GoogleLoginButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleLoginButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +111,7 @@
 				AF3ECCD72D55EC8D003BC974 /* FirstLoginPage.swift */,
 				AF3ECCD92D55EC9B003BC974 /* CreateAccountPage.swift */,
 				AF3ECCDB2D55ECB2003BC974 /* ConfirmationPage.swift */,
+				AFE0DA1F2D5C812C00A7C33C /* RegistrationContentView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -102,6 +119,7 @@
 		AF3ECCDF2D55ED6A003BC974 /* Presenter */ = {
 			isa = PBXGroup;
 			children = (
+				AFFAF2E22D592358008AB031 /* Presenter.swift */,
 			);
 			path = Presenter;
 			sourceTree = "<group>";
@@ -118,6 +136,12 @@
 			children = (
 				AF3ECCE22D55F33D003BC974 /* LoginLabel.swift */,
 				AF3ECCE42D55F683003BC974 /* LoginTextField.swift */,
+				AFFAF2E42D592504008AB031 /* YellowButton.swift */,
+				AFFAF2E62D5928E6008AB031 /* SignInUpLabel.swift */,
+				AFFAF2E82D5929EC008AB031 /* GoogleLoginButton.swift */,
+				AFE0DA192D5A75EC00A7C33C /* SingInUpLabelButton.swift */,
+				AFE0DA1B2D5C790F00A7C33C /* MainLabel.swift */,
+				AFE0DA1D2D5C7A4200A7C33C /* SubheadingLabel.swift */,
 			);
 			path = ReusableComponents;
 			sourceTree = "<group>";
@@ -195,8 +219,16 @@
 				AF3ECCE52D55F683003BC974 /* LoginTextField.swift in Sources */,
 				AF3ECCDC2D55ECB2003BC974 /* ConfirmationPage.swift in Sources */,
 				AF3ECCD82D55EC8D003BC974 /* FirstLoginPage.swift in Sources */,
+				AFE0DA1C2D5C790F00A7C33C /* MainLabel.swift in Sources */,
+				AFE0DA1A2D5A75EC00A7C33C /* SingInUpLabelButton.swift in Sources */,
+				AFFAF2E72D5928E6008AB031 /* SignInUpLabel.swift in Sources */,
+				AFFAF2E92D5929EC008AB031 /* GoogleLoginButton.swift in Sources */,
+				AFE0DA202D5C812C00A7C33C /* RegistrationContentView.swift in Sources */,
 				AF3ECCC42D55EB39003BC974 /* ViewController.swift in Sources */,
+				AFFAF2E32D592358008AB031 /* Presenter.swift in Sources */,
 				AF3ECCDA2D55EC9B003BC974 /* CreateAccountPage.swift in Sources */,
+				AFE0DA1E2D5C7A4300A7C33C /* SubheadingLabel.swift in Sources */,
+				AFFAF2E52D592504008AB031 /* YellowButton.swift in Sources */,
 				AF3ECCE32D55F33D003BC974 /* LoginLabel.swift in Sources */,
 				AF3ECCCA2D55EB39003BC974 /* SNRProject.xcdatamodeld in Sources */,
 				AF3ECCC02D55EB39003BC974 /* AppDelegate.swift in Sources */,

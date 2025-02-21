@@ -26,18 +26,18 @@ final class LoginRegistrationTextField: UITextField {
     private func setupTextField() {
         backgroundColor = .white
         
-        layer.cornerRadius = 30
+        layer.cornerRadius = 20
         layer.borderWidth = 1.0
         layer.borderColor = UIColor.black.cgColor
         
-        leftView = UIView(frame: CGRect(x: 0, y: 0, width: 20, height: 60))
-        rightView = UIView(frame: CGRect(x: 0, y: 0, width: 20, height: 60))
+        leftView = UIView(frame: CGRect(x: 0, y: 0, width: 20, height: 56))
+        rightView = UIView(frame: CGRect(x: 0, y: 0, width: 20, height: 56))
         leftViewMode = .always
         rightViewMode = .always
         autocorrectionType = .no
         autocapitalizationType = .none
         textColor = .black
         tintColor = .black
-        heightAnchor.constraint(equalToConstant: 60).isActive = true
+        heightAnchor.constraint(equalToConstant: 56).isActive = true
     }
 }
